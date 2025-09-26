@@ -178,14 +178,33 @@ def training_pipeline(data_path: str = "./data/processed/"):
         print(f"Best F1 Score: {best_score:.4f}")
         
         # Save the best model
-        os.makedirs("./models", exist_ok=True)
-        import joblib
-        joblib.dump(best_model, f"./models/{best_model_name}.pkl")
-        joblib.dump(vectorizer, "./models/tfidf_vectorizer.pkl")
-        
-        print("Best model saved to ./models/")
+        best_model_path, vectorizer_path = save_best_model(best_model, vectorizer, best_model_name)
+        mlflow.log_artifact(best_model_path)
+        mlflow.log_artifact(vectorizer_path)
         
         return best_model, best_score
+
+def save_best_model(best_model, vectorizer, best_model_name):
+    """Save the best model and vectorizer with consistent naming."""
+    os.makedirs("./models", exist_ok=True)
+    
+    # Save with specific name
+    best_model_path = "./models/best_model.pkl"
+    vectorizer_path = "./models/tfidf_vectorizer.pkl"
+    
+    import joblib
+    joblib.dump(best_model, best_model_path)
+    joblib.dump(vectorizer, vectorizer_path)
+    
+    print(f"Best model saved as: {best_model_path}")
+    print(f"Vectorizer saved as: {vectorizer_path}")
+    
+    # Also save with experiment name for reference
+    experiment_model_path = f"./models/{best_model_name}.pkl"
+    joblib.dump(best_model, experiment_model_path)
+    
+    return best_model_path, vectorizer_path
+
 
 if __name__ == "__main__":
     training_pipeline()
