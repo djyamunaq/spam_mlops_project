@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/98c0177ea52d4bbe84dfcaa7e96cb267/artifacts
+end_time: 1758917599134
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: 98c0177ea52d4bbe84dfcaa7e96cb267
+run_name: casual-dolphin-277
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758917596944
+status: 3
+tags: []
+user_id: dyxcvi

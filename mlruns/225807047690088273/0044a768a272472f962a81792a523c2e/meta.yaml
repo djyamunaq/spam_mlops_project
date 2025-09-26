@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/0044a768a272472f962a81792a523c2e/artifacts
+end_time: 1758917604585
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: 0044a768a272472f962a81792a523c2e
+run_name: serious-dove-284
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758917589893
+status: 3
+tags: []
+user_id: dyxcvi

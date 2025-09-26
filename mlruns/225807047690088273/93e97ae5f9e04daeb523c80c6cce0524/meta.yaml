@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/93e97ae5f9e04daeb523c80c6cce0524/artifacts
+end_time: 1758917604502
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: 93e97ae5f9e04daeb523c80c6cce0524
+run_name: receptive-perch-474
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758917601749
+status: 3
+tags: []
+user_id: dyxcvi

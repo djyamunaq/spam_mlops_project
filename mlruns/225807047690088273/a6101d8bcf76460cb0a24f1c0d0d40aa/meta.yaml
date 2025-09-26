@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/a6101d8bcf76460cb0a24f1c0d0d40aa/artifacts
+end_time: 1758917592842
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: a6101d8bcf76460cb0a24f1c0d0d40aa
+run_name: resilient-mule-703
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758917590128
+status: 3
+tags: []
+user_id: dyxcvi

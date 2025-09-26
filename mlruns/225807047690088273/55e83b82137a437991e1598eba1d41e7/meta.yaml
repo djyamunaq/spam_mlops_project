@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/55e83b82137a437991e1598eba1d41e7/artifacts
+end_time: 1758917601710
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: 55e83b82137a437991e1598eba1d41e7
+run_name: invincible-stag-175
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758917599173
+status: 3
+tags: []
+user_id: dyxcvi
