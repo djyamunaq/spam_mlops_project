@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/32217648deda44998372544a54400b1e/artifacts
+end_time: 1758901276157
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: 32217648deda44998372544a54400b1e
+run_name: trusting-wolf-788
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758901273904
+status: 3
+tags: []
+user_id: dyxcvi

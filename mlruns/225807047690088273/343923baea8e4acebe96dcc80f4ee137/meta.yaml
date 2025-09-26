@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/343923baea8e4acebe96dcc80f4ee137/artifacts
+end_time: 1758901278802
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: 343923baea8e4acebe96dcc80f4ee137
+run_name: painted-moth-96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758901276198
+status: 3
+tags: []
+user_id: dyxcvi

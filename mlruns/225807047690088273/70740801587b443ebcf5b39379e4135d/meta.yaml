@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/70740801587b443ebcf5b39379e4135d/artifacts
+end_time: 1758901281667
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: 70740801587b443ebcf5b39379e4135d
+run_name: upbeat-ox-764
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758901278839
+status: 3
+tags: []
+user_id: dyxcvi

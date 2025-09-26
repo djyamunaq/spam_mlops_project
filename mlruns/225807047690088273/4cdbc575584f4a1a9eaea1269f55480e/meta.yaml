@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/4cdbc575584f4a1a9eaea1269f55480e/artifacts
+end_time: 1758901269585
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: 4cdbc575584f4a1a9eaea1269f55480e
+run_name: dashing-foal-707
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758901266902
+status: 3
+tags: []
+user_id: dyxcvi

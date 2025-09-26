@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/192809a0ac2a44328d6abcbcb39581c7/artifacts
+end_time: 1758901271704
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: 192809a0ac2a44328d6abcbcb39581c7
+run_name: hilarious-shad-600
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758901269625
+status: 3
+tags: []
+user_id: dyxcvi

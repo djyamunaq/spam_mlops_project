@@ -1,0 +1,14 @@
+artifact_uri: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/5facaeffbcaf4bccb76b957df2ef2b5f/artifacts
+end_time: 1758901273863
+entry_point_name: ''
+experiment_id: '225807047690088273'
+lifecycle_stage: active
+run_id: 5facaeffbcaf4bccb76b957df2ef2b5f
+run_name: thundering-skink-187
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758901271745
+status: 3
+tags: []
+user_id: dyxcvi

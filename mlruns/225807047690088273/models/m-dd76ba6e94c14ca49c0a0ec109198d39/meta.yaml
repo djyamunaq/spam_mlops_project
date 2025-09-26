@@ -1,0 +1,10 @@
+artifact_location: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/models/m-dd76ba6e94c14ca49c0a0ec109198d39/artifacts
+creation_timestamp: 1758901267047
+experiment_id: '225807047690088273'
+last_updated_timestamp: 1758901269583
+model_id: m-dd76ba6e94c14ca49c0a0ec109198d39
+model_type: null
+name: model
+source_run_id: 4cdbc575584f4a1a9eaea1269f55480e
+status: 2
+status_message: null

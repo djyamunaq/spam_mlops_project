@@ -1,0 +1,22 @@
+artifact_path: file:///home/dyxcvi/Documents/projects/spam_mlops_project/mlruns/225807047690088273/models/m-5d6280a5bd3b41e3969743d80353dedc/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.4.0
+model_id: m-5d6280a5bd3b41e3969743d80353dedc
+model_size_bytes: 1921234
+model_uuid: m-5d6280a5bd3b41e3969743d80353dedc
+prompts: null
+run_id: 343923baea8e4acebe96dcc80f4ee137
+utc_time_created: '2025-09-26 15:41:16.823640'
