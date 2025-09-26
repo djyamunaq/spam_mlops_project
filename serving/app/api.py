@@ -26,8 +26,8 @@ class BatchPredictionResponse(BaseModel):
 def load_artifacts():
     """Load the trained model and vectorizer."""
     try:
-        model_path = "./models/best_model.pkl"
-        vectorizer_path = "./models/tfidf_vectorizer.pkl"
+        model_path = "../models/best_model.pkl"
+        vectorizer_path = "../models/tfidf_vectorizer.pkl"
         
         if not os.path.exists(model_path):
             raise FileNotFoundError(f"Model file not found at {model_path}")
@@ -37,11 +37,11 @@ def load_artifacts():
         model = joblib.load(model_path)
         vectorizer = joblib.load(vectorizer_path)
         
-        print("✅ Model and vectorizer loaded successfully")
+        print("Model and vectorizer loaded successfully")
         return model, vectorizer
         
     except Exception as e:
-        print(f"❌ Error loading artifacts: {e}")
+        print(f"Error loading artifacts: {e}")
         raise
 
 # Initialize FastAPI app
